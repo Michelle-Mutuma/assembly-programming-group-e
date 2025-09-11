@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow directories so Git can traverse them
+!*/
+
+# Allow .asm and README.md files
+!*.asm
+!README.md
+
+# Explicitly ignore build artifacts
+*.o
+*.out
+*.exe
+*.com
+hello32
+hello64
