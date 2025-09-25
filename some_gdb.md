@@ -15,9 +15,7 @@ Displays register values in a dedicated window.
 si: run line
 
 # Show in hexadecimal
-p/x $rax
 
-# Show in decimal
 p/d $rax
 
 # Show in binary
