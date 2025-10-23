@@ -6,7 +6,8 @@
 ; to debug = gdb --silent loop1
 
 section .data
-    str_msg db "Hello from LOOP!", 10
+    str_msg db "Hello from LOOP!", 10  ;10 - 
+    new line
     len equ $ - str_msg
 
 section .text
