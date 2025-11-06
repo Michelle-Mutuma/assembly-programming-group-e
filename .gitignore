@@ -4,7 +4,7 @@
 # Allow directories so Git can traverse them
 !*/
 
-# Allow .asm and README.md files
+# Allow .asm and README.md .c files
 !*.asm
 !README.md
 !*.c
